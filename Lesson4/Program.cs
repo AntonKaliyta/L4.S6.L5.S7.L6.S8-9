@@ -18,14 +18,40 @@
 //     }
 // }
 
-int[,] matrix = new int[5,10];
+// int[,] matrix = new int[5,10];
 
-for (int i = 0; i < matrix.GetLength(0); i++)
-{
-    System.Console.WriteLine();
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-       matrix[i,j] = new Random().Next(1,10);
-       System.Console.Write(matrix[i,j]);
-    }
-}
+// for (int i = 0; i < matrix.GetLength(0); i++)
+// {
+//     System.Console.WriteLine();
+//     for (int j = 0; j < matrix.GetLength(1); j++)
+//     {
+//        matrix[i,j] = new Random().Next(1,10);
+//        System.Console.Write(matrix[i,j]);
+//     }
+// }
+
+// Факториал
+
+// int Factorial(int n)
+// {
+//     if (n == 1) return 1;
+//     else
+//     {
+//        return n* Factorial(n-1);
+//     }
+// }
+// System.Console.WriteLine(Factorial(5));
+
+// Фибоначчи
+
+// double f(int n)
+// {
+//     if (n == 1 || n == 2) return 1;
+//     else return f(n - 1) + f(n - 2);
+// }
+
+// for (int i = 1; i < 30; i++)
+// {
+//     System.Console.Write(f(i) + " ");
+// }
+
